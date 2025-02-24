@@ -1,0 +1,44 @@
+#formDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.formSubDiv{
+    border: 1px solid red;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+form > input{
+    padding: 10px 10px;
+    outline: none;
+}
+#submit{
+    margin-left: 80px;
+    padding: 5px 15px;
+}
+#submit:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+#CollectDataDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#collectData{
+    display: none;
+    border:  1px solid red;
+    border-radius: 5px;
+    padding: 15px 10px;
+    background-color: gray;
+    color: wheat;
+    font-size: 30px;
+}
+span{
+    text-shadow: 1px 1px blue;
+}
